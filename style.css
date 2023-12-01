@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    background: linear-gradient(to right, rgb(30, 30, 30), rgb(170, 170, 170));
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 90%;
+    margin-top: 30px;
+    table-layout: fixed;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12px;
+  }
+  
+  caption {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ffffff;
+    padding: 8px;
+    text-align: left;
+  }
+
+  thead {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  ul {
+    margin: 0;
+    padding-left: 20px;
+  }
+  
+  li {
+    margin: 5px 0;
+  }
